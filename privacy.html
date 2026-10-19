@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Krzychu Commander — Privacy Policy</title>
+<meta name="description" content="Krzychu Commander privacy policy: the app collects no personal data, has no accounts, no ads and no tracking.">
+<link rel="icon" href="assets/icon.png">
+<style>
+  :root{
+    --bg:#050d33; --bg-2:#0a1f7a; --panel:#0c1a55; --line:#23367f;
+    --text:#e2f4ff; --muted:#9fb6dd; --accent:#55ffff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent)}
+  a:hover{color:#fff}
+  .wrap{max-width:820px;margin:0 auto;padding:0 20px}
+  header{background:linear-gradient(180deg,var(--bg-2),var(--bg));border-bottom:1px solid var(--line);padding:34px 0}
+  header .wrap{display:flex;align-items:center;gap:14px}
+  header img{width:56px;height:56px}
+  header h1{font-size:1.5rem;margin:0}
+  header p{margin:2px 0 0;color:var(--muted);font-size:.9rem}
+  .langs{margin:26px 0 0;color:var(--muted);font-size:.92rem}
+  main{padding:10px 0 40px}
+  h2{font-size:1.45rem;margin:44px 0 6px;padding-top:24px;border-top:1px solid var(--line)}
+  h2:first-of-type{border-top:0;padding-top:0;margin-top:26px}
+  h3{font-size:1.06rem;margin:26px 0 6px}
+  .meta{color:var(--muted);font-size:.93rem;margin:0 0 8px}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.93rem;display:block;overflow-x:auto}
+  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+  th{background:var(--panel)}
+  code{background:var(--panel);padding:1px 6px;border-radius:5px;font-size:.9em}
+  ul{padding-left:20px}
+  footer{border-top:1px solid var(--line);padding:26px 0 50px;color:var(--muted);font-size:.88rem;text-align:center}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <img src="assets/icon.png" alt="Krzychu Commander app icon">
+    <div>
+      <h1>Krzychu Commander — Privacy Policy</h1>
+      <p><a href="index.html">← Back to Krzychu Commander</a></p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<p class="langs"><a href="#en">English</a> · <a href="#pl">Polska wersja poniżej</a></p>
+
+<h2 id="en">Privacy Policy (English)</h2>
+<p class="meta">
+  <strong>App:</strong> Krzychu Commander for macOS (<code>pl.krzychu.krzychucommander</code>)<br>
+  <strong>Publisher:</strong> Krzysztof Leszczyński<br>
+  <strong>Contact:</strong> <a href="mailto:multivision75@gmail.com">multivision75@gmail.com</a><br>
+  <strong>Effective date:</strong> 19 October 2026 · <strong>Last updated:</strong> 19 October 2026
+</p>
+
+<h3>1. Summary</h3>
+<p>Krzychu Commander is a file manager. The app <strong>does not collect, store or transmit any
+personal data</strong> to the publisher. There are no user accounts, no sign-in, no ads, and no
+analytics or tracking SDKs. The publisher operates no server that the app sends data to. Your
+files are processed only on your Mac and on the devices and servers you choose to connect to.</p>
+
+<h3>2. Your files</h3>
+<p>The app runs in the macOS App Sandbox and can open only the folders you pick in the folder
+picker. It reads, copies, moves, renames, deletes and edits files only when you ask it to.
+Metadata you edit is written only into the file itself. Files are never uploaded anywhere except
+to a device or server that you connected to and chose as the target of an operation.</p>
+
+<h3>3. Data stored on your Mac</h3>
+<p>All app data stays in the app’s sandbox container on your Mac and is never uploaded by
+Krzychu Commander:</p>
+<ul>
+  <li><strong>Folder access</strong> — security-scoped bookmarks of the folders you picked, so the app keeps access after a restart.</li>
+  <li><strong>Settings</strong> — appearance, language, sorting, remembered folders, window position, slideshow and lookup settings, the last texts of the marking filter.</li>
+  <li><strong>Network connections</strong> — the FTP, SMB and SSH connections you save (server, user, folder). Passwords, private keys and key passphrases are <strong>encrypted</strong> (AES-256-GCM) with a key derived from your Mac’s hardware identifier, so a copy of the preferences file is useless on another computer. Exported connection files are created only when you export them, optionally protected with a password you choose.</li>
+  <li><strong>SSH host keys</strong> — the fingerprints of servers you trusted, to warn you if one changes.</li>
+  <li><strong>Android key</strong> — the app’s own RSA key used to talk to Android devices over USB debugging (the device asks you to allow it).</li>
+  <li><strong>API keys</strong> — keys you entered for the movie data providers.</li>
+  <li><strong>Crash log</strong> (<code>Library/Logs/crash.log</code> in the container) — technical details of an app error, kept locally and <strong>never uploaded</strong>.</li>
+</ul>
+<p>Removing the app and its container (<code>~/Library/Containers/pl.krzychu.krzychucommander</code>)
+deletes all of the above.</p>
+
+<h3>4. Devices and servers you connect to</h3>
+<p>When you open an Android phone, an iPhone or iPad, or an FTP, SMB or SSH server, the app
+exchanges data directly with that device or server: listings, the files you copy, and the
+credentials you entered for it. Nothing passes through the publisher. To help you find servers,
+the app can search your <strong>local network</strong> (Bonjour and NetBIOS name queries); these
+queries stay within your local network, and macOS asks for your permission first.</p>
+
+<h3>5. Online services</h3>
+<p>Some features use the services below. They are contacted <strong>only when you use that
+feature</strong>. Any internet connection means the recipient can see your IP address and
+standard HTTP headers — this is inherent to networking, not data collected by Krzychu Commander.</p>
+<table>
+  <tr><th>Service</th><th>When</th><th>What is sent</th></tr>
+  <tr><td>Apple geocoding (Core Location)</td><td>Showing the place name of a photo or video with GPS data (metadata form, slideshow place names — can be turned off in Settings)</td><td>The GPS coordinates stored in the file, IP address</td></tr>
+  <tr><td>OpenStreetMap Nominatim (<code>nominatim.openstreetmap.org</code>)</td><td>Marking files by place name</td><td>The place name you typed, IP address</td></tr>
+  <tr><td>TMDB (<code>api.themoviedb.org</code>, <code>image.tmdb.org</code>), OMDb (<code>www.omdbapi.com</code>) or TVmaze (<code>api.tvmaze.com</code>) — the one chosen in Settings</td><td>Looking up a film or TV episode in the metadata form</td><td>The search text (suggested from the file name, editable), your API key for that provider, the app’s language, IP address; the poster is downloaded from the provider’s image server</td></tr>
+  <tr><td>iTunes Search API (<code>itunes.apple.com</code>)</td><td>Looking up a song in the metadata form</td><td>The search text (artist and title, editable), your country code, IP address; the album cover is downloaded from Apple’s servers</td></tr>
+</table>
+<p>Opening a place in the Maps app passes its coordinates to Maps on your Mac. These services have
+their own privacy policies, over which the publisher has no control:
+<a href="https://www.apple.com/legal/privacy/">Apple</a> ·
+<a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation</a> ·
+<a href="https://www.themoviedb.org/privacy-policy">TMDB</a> ·
+<a href="https://www.omdbapi.com/legal.htm">OMDb</a> ·
+<a href="https://www.tvmaze.com/site/privacy">TVmaze</a>.</p>
+
+<h3>6. Permissions</h3>
+<p>App Sandbox entitlements: outgoing network connections (online services and servers),
+read/write access to folders you pick and bookmarks to keep it, and USB device access (Android
+phones). macOS may also ask for <strong>Local Network</strong> access (finding servers). The app
+does <strong>not</strong> request access to your location, contacts, calendars, camera,
+microphone or Photos library, and uses no advertising identifiers.</p>
+
+<h3>7. Children</h3>
+<p>Krzychu Commander is not directed to children under 13 and knowingly collects no data from
+children.</p>
+
+<h3>8. Your rights</h3>
+<p>The publisher holds no personal data about you, so there is nothing to access, correct or
+delete on our side. You control all local data: remove saved connections in the app, or delete
+the app and its container.</p>
+
+<h3>9. Changes</h3>
+<p>Updated versions will be published at this same URL with a new date.</p>
+
+<h3>10. Contact</h3>
+<p><a href="mailto:multivision75@gmail.com">multivision75@gmail.com</a></p>
+
+<h2 id="pl">Polityka prywatności (polski)</h2>
+<p class="meta">
+  <strong>Aplikacja:</strong> Krzychu Commander dla macOS (<code>pl.krzychu.krzychucommander</code>)<br>
+  <strong>Wydawca:</strong> Krzysztof Leszczyński<br>
+  <strong>Kontakt:</strong> <a href="mailto:multivision75@gmail.com">multivision75@gmail.com</a><br>
+  <strong>Data wejścia w życie:</strong> 19 października 2026 · <strong>Ostatnia aktualizacja:</strong> 19 października 2026
+</p>
+
+<h3>1. Podsumowanie</h3>
+<p>Krzychu Commander to menedżer plików. Aplikacja <strong>nie zbiera, nie przechowuje ani nie
+przesyła danych osobowych</strong> do wydawcy. Nie ma kont użytkownika, logowania, reklam ani
+narzędzi analitycznych czy śledzących. Wydawca nie prowadzi żadnego serwera, na który aplikacja
+mogłaby wysyłać dane. Twoje pliki są przetwarzane wyłącznie na Twoim Macu oraz na urządzeniach
+i serwerach, z którymi sam się połączysz.</p>
+
+<h3>2. Twoje pliki</h3>
+<p>Aplikacja działa w piaskownicy macOS (App Sandbox) i może otworzyć tylko foldery wybrane przez
+Ciebie w oknie wyboru folderu. Odczytuje, kopiuje, przenosi, zmienia nazwy, usuwa i edytuje pliki
+wyłącznie na Twoje polecenie. Edytowane metadane są zapisywane tylko w samym pliku. Pliki nie są
+nigdzie wysyłane — poza urządzeniem lub serwerem, z którym się połączyłeś i który wskazałeś jako
+cel operacji.</p>
+
+<h3>3. Dane przechowywane na Macu</h3>
+<p>Wszystkie dane aplikacji pozostają w jej kontenerze piaskownicy na Twoim Macu i nigdy nie są
+wysyłane przez Krzychu Commander:</p>
+<ul>
+  <li><strong>Dostęp do folderów</strong> — zakładki (security-scoped bookmarks) wybranych folderów, aby aplikacja zachowała do nich dostęp po ponownym uruchomieniu.</li>
+  <li><strong>Ustawienia</strong> — wygląd, język, sortowanie, zapamiętane foldery, położenie okna, ustawienia pokazu slajdów i wyszukiwania, ostatnie teksty filtra zaznaczania.</li>
+  <li><strong>Połączenia sieciowe</strong> — zapisane połączenia FTP, SMB i SSH (serwer, użytkownik, folder). Hasła, klucze prywatne i hasła do kluczy są <strong>szyfrowane</strong> (AES-256-GCM) kluczem wyprowadzonym z identyfikatora sprzętowego Twojego Maca, więc kopia pliku preferencji jest bezużyteczna na innym komputerze. Pliki eksportu połączeń powstają tylko wtedy, gdy je eksportujesz, opcjonalnie chronione wybranym przez Ciebie hasłem.</li>
+  <li><strong>Klucze hostów SSH</strong> — odciski serwerów, którym zaufałeś, aby ostrzec Cię, gdy któryś się zmieni.</li>
+  <li><strong>Klucz Androida</strong> — własny klucz RSA aplikacji do komunikacji z urządzeniami z Androidem przez debugowanie USB (urządzenie prosi Cię o zgodę).</li>
+  <li><strong>Klucze API</strong> — klucze wpisane dla dostawców danych o filmach.</li>
+  <li><strong>Log awarii</strong> (<code>Library/Logs/crash.log</code> w kontenerze) — techniczne szczegóły błędu aplikacji, zapisywane wyłącznie lokalnie i <strong>nigdzie nie wysyłane</strong>.</li>
+</ul>
+<p>Usunięcie aplikacji wraz z jej kontenerem (<code>~/Library/Containers/pl.krzychu.krzychucommander</code>)
+usuwa wszystkie powyższe dane.</p>
+
+<h3>4. Urządzenia i serwery, z którymi się łączysz</h3>
+<p>Gdy otwierasz telefon z Androidem, iPhone’a lub iPada albo serwer FTP, SMB czy SSH, aplikacja
+wymienia dane bezpośrednio z tym urządzeniem lub serwerem: listy plików, kopiowane pliki oraz
+wpisane dla niego dane logowania. Nic nie przechodzi przez wydawcę. Aby pomóc znaleźć serwery,
+aplikacja może przeszukać Twoją <strong>sieć lokalną</strong> (zapytania Bonjour i NetBIOS); te
+zapytania nie wychodzą poza sieć lokalną, a macOS najpierw prosi Cię o zgodę.</p>
+
+<h3>5. Usługi internetowe</h3>
+<p>Niektóre funkcje korzystają z poniższych usług. Aplikacja łączy się z nimi <strong>tylko wtedy,
+gdy używasz danej funkcji</strong>. Każde połączenie internetowe oznacza, że odbiorca widzi Twój
+adres IP oraz standardowe nagłówki HTTP — jest to nieodłączna cecha komunikacji sieciowej, a nie
+dane zbierane przez Krzychu Commander.</p>
+<table>
+  <tr><th>Usługa</th><th>Kiedy</th><th>Co jest wysyłane</th></tr>
+  <tr><td>Geokodowanie Apple (Core Location)</td><td>Pokazanie nazwy miejsca zdjęcia lub filmu z danymi GPS (formularz metadanych, nazwy miejsc w pokazie slajdów — można wyłączyć w Ustawieniach)</td><td>Współrzędne GPS zapisane w pliku, adres IP</td></tr>
+  <tr><td>OpenStreetMap Nominatim (<code>nominatim.openstreetmap.org</code>)</td><td>Zaznaczanie plików według nazwy miejsca</td><td>Wpisana nazwa miejsca, adres IP</td></tr>
+  <tr><td>TMDB (<code>api.themoviedb.org</code>, <code>image.tmdb.org</code>), OMDb (<code>www.omdbapi.com</code>) lub TVmaze (<code>api.tvmaze.com</code>) — wybrany w Ustawieniach</td><td>Wyszukanie filmu lub odcinka serialu w formularzu metadanych</td><td>Tekst wyszukiwania (podpowiedziany z nazwy pliku, do edycji), Twój klucz API tego dostawcy, język aplikacji, adres IP; plakat jest pobierany z serwera obrazów dostawcy</td></tr>
+  <tr><td>iTunes Search API (<code>itunes.apple.com</code>)</td><td>Wyszukanie utworu w formularzu metadanych</td><td>Tekst wyszukiwania (wykonawca i tytuł, do edycji), kod kraju, adres IP; okładka albumu jest pobierana z serwerów Apple</td></tr>
+</table>
+<p>Otwarcie miejsca w aplikacji Mapy przekazuje jego współrzędne do Map na Twoim Macu. Usługi te
+mają własne polityki prywatności, na które wydawca nie ma wpływu:
+<a href="https://www.apple.com/legal/privacy/">Apple</a> ·
+<a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation</a> ·
+<a href="https://www.themoviedb.org/privacy-policy">TMDB</a> ·
+<a href="https://www.omdbapi.com/legal.htm">OMDb</a> ·
+<a href="https://www.tvmaze.com/site/privacy">TVmaze</a>.</p>
+
+<h3>6. Uprawnienia</h3>
+<p>Uprawnienia piaskownicy: wychodzące połączenia sieciowe (usługi internetowe i serwery),
+odczyt i zapis w wybranych przez Ciebie folderach wraz z zakładkami do zachowania dostępu oraz
+dostęp do urządzeń USB (telefony z Androidem). macOS może też poprosić o dostęp do <strong>sieci
+lokalnej</strong> (wyszukiwanie serwerów). Aplikacja <strong>nie prosi</strong> o dostęp do
+lokalizacji, kontaktów, kalendarzy, aparatu, mikrofonu ani biblioteki Zdjęć i nie używa
+identyfikatorów reklamowych.</p>
+
+<h3>7. Dzieci</h3>
+<p>Krzychu Commander nie jest kierowany do dzieci poniżej 13. roku życia i nie zbiera świadomie
+żadnych danych od dzieci.</p>
+
+<h3>8. Twoje prawa</h3>
+<p>Ponieważ wydawca nie przetwarza żadnych Twoich danych osobowych, nie posiada danych, które
+mógłby udostępnić, poprawić lub usunąć. Pełną kontrolę nad danymi lokalnymi masz Ty — możesz
+usunąć zapisane połączenia w aplikacji albo usunąć aplikację wraz z jej kontenerem.</p>
+
+<h3>9. Zmiany polityki</h3>
+<p>W razie zmiany zasad zaktualizowana wersja zostanie opublikowana pod tym samym adresem wraz
+z nową datą aktualizacji.</p>
+
+<h3>10. Kontakt</h3>
+<p>Pytania dotyczące prywatności: <a href="mailto:multivision75@gmail.com">multivision75@gmail.com</a></p>
+
+</main>
+
+<footer class="wrap">
+  <p><a href="index.html">Krzychu Commander</a> · © 2026 Krzysztof Leszczyński</p>
+</footer>
+
+</body>
+</html>

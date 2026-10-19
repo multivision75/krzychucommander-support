@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Krzychu Commander — Two-Panel File Manager for Mac | Support</title>
+<meta name="description" content="Krzychu Commander is a keyboard-driven two-panel file manager for the Mac, made for photos and videos: copy, move, mark, edit metadata, run slideshows, and reach Android phones, iPhones, FTP, SMB and SSH servers. Support, FAQ and contact.">
+<link rel="icon" href="assets/icon.png">
+<style>
+  :root{
+    --bg:#050d33; --bg-2:#0a1f7a; --panel:#0c1a55; --line:#23367f;
+    --text:#e2f4ff; --muted:#9fb6dd; --accent:#55ffff; --accent-2:#ff4f5e;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent)}
+  a:hover{color:#fff}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{
+    background:linear-gradient(180deg,var(--bg-2),var(--bg));
+    border-bottom:1px solid var(--line); padding:56px 0 44px; text-align:center;
+  }
+  header img.icon{width:128px;height:128px;filter:drop-shadow(0 10px 24px rgba(0,0,0,.5))}
+  h1{margin:16px 0 6px;font-size:2.3rem;letter-spacing:-.5px}
+  .tagline{margin:0;color:var(--muted);font-size:1.1rem}
+  .badges{margin-top:22px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .badge{
+    border:1px solid var(--line); border-radius:999px; padding:6px 14px;
+    font-size:.85rem; color:var(--muted); background:rgba(255,255,255,.04);
+  }
+  section{padding:44px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:0}
+  h2{font-size:1.4rem;margin:0 0 18px;letter-spacing:-.2px}
+  h3{font-size:1.02rem;margin:22px 0 6px}
+  .hero-shot{margin:0}
+  .hero-shot img{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+  .hero-shot figcaption{color:var(--muted);font-size:.85rem;margin-top:8px;text-align:center}
+  .features{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));padding:0;margin:0;list-style:none}
+  .features li{
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    padding:16px 18px;
+  }
+  .features b{display:block;margin-bottom:4px}
+  .features span{color:var(--muted);font-size:.94rem}
+  .shots{display:flex;gap:18px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+  .shots figure{margin:0;flex:0 0 360px;scroll-snap-align:start}
+  .shots img{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+  .shots figcaption{color:var(--muted);font-size:.85rem;margin-top:8px;text-align:center}
+  .keys{width:100%;border-collapse:collapse;font-size:.94rem}
+  .keys td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  .keys td:first-child{white-space:nowrap;width:1%}
+  kbd{
+    display:inline-block;background:var(--panel);border:1px solid var(--line);border-bottom-width:2px;
+    border-radius:6px;padding:0 7px;font:600 .85rem/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent);
+  }
+  code{background:var(--panel);padding:1px 6px;border-radius:5px;font-size:.9em}
+  .faq dt{font-weight:600;margin-top:18px}
+  .faq dd{margin:4px 0 0;color:var(--muted)}
+  .contact{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px 24px;
+  }
+  .contact p{margin:6px 0}
+  .mail{font-size:1.15rem;font-weight:600}
+  footer{padding:30px 0 50px;color:var(--muted);font-size:.88rem;text-align:center}
+  footer a{color:var(--muted)}
+  @media (max-width:520px){h1{font-size:1.9rem}.shots figure{flex-basis:280px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <img class="icon" src="assets/icon.png" alt="Krzychu Commander app icon">
+    <h1>Krzychu Commander</h1>
+    <p class="tagline">A two-panel file manager for the Mac, made for photos and videos.</p>
+    <div class="badges">
+      <span class="badge">macOS 12 or later</span>
+      <span class="badge">Apple silicon &amp; Intel</span>
+      <span class="badge">English · Polski</span>
+      <span class="badge">No ads · No accounts · No tracking</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="about">
+  <h2>What it is</h2>
+  <p>
+    Krzychu Commander brings the classic two-panel file manager to the Mac. Two folders side by
+    side, a cursor you drive with the keyboard, and the function keys doing the work: F5 copies,
+    F6 moves, F8 deletes. It is built for people who sort large collections of photos and videos —
+    mark files by name, date, camera details or the place where they were taken, edit their
+    metadata, and show them full screen as a slideshow.
+  </p>
+  <p>
+    Besides folders on your Mac, the right panel can open an Android phone over USB, the photos and
+    videos on an iPhone or iPad, and FTP, SMB and SSH servers. There is no account to create, no
+    advertising and no analytics — your files and settings stay on your Mac.
+  </p>
+  <figure class="hero-shot">
+    <img src="assets/shot-overview.png" alt="Two panels: photos with four marked files on the left, a backup folder on the right, function keys at the bottom">
+    <figcaption>Two panels, marked files in yellow, function keys at the bottom</figcaption>
+  </figure>
+</section>
+
+<section id="features">
+  <h2>Features</h2>
+  <ul class="features">
+    <li><b>Two panels, all keyboard</b><span>Arrows, Return and Backspace to browse, Tab to switch panels, type a few letters to jump to a name. Mouse, drag and drop and right-click work too.</span></li>
+    <li><b>Copy, move, delete</b><span>F5, F6 and F8 with progress and cancel, overwrite questions, folders merged, file and folder dates kept. Deleting goes to the Trash unless you ask otherwise.</span></li>
+    <li><b>Mark by filter</b><span>Mark files by name, date, metadata field or place name (“Kraków”, “Lake Garda”) — in one folder or in all subfolders at once.</span></li>
+    <li><b>Edit metadata</b><span>Title, description, keywords, author, copyright and date of JPEG, HEIC, MOV, MP4, MKV, AVI and MP3 files — written in place, with the picture and media data left byte for byte.</span></li>
+    <li><b>Movie and music lookup</b><span>Fill in a film’s, TV episode’s or song’s details and cover from an online catalogue with one click.</span></li>
+    <li><b>Slideshow</b><span>The marked photos and videos full screen, ordered by date, with the place name and a progress bar.</span></li>
+    <li><b>Android, iPhone &amp; iPad</b><span>Copy to and from Android phones over USB, and import photos and videos from an iPhone or iPad — no extra software needed.</span></li>
+    <li><b>FTP, SMB &amp; SSH</b><span>Browse servers, NAS drives and other Macs and PCs on your network, with saved connections and passwords encrypted on your Mac.</span></li>
+    <li><b>Quick Look &amp; cover icons</b><span>F3 previews the file under the cursor; covers and photos can be shown as file icons.</span></li>
+    <li><b>Your look</b><span>Pick a base colour and font; light and dark appearance follow the system.</span></li>
+  </ul>
+</section>
+
+<section id="screenshots">
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <figure><img src="assets/shot-filter.png" alt="Mark by Filter dialog with name, modified and metadata tabs"><figcaption>Mark by filter</figcaption></figure>
+    <figure><img src="assets/shot-metadata.png" alt="Metadata form of a photo"><figcaption>Metadata</figcaption></figure>
+    <figure><img src="assets/shot-slideshow.png" alt="Full-screen slideshow with the place name at the top"><figcaption>Slideshow</figcaption></figure>
+    <figure><img src="assets/shot-network.png" alt="Saved network connections"><figcaption>Network connections</figcaption></figure>
+  </div>
+</section>
+
+<section id="keys">
+  <h2>Most used keys</h2>
+  <table class="keys">
+    <tr><td><kbd>Tab</kbd></td><td>Switch between the panels</td></tr>
+    <tr><td><kbd>Space</kbd></td><td>Mark the file under the cursor and move down; <kbd>⇧</kbd><kbd>Space</kbd> marks by filter</td></tr>
+    <tr><td><kbd>F3</kbd></td><td>Quick Look preview</td></tr>
+    <tr><td><kbd>F5</kbd> / <kbd>F6</kbd></td><td>Copy / move to the other panel</td></tr>
+    <tr><td><kbd>F7</kbd></td><td>New folder</td></tr>
+    <tr><td><kbd>F8</kbd></td><td>Move to the Trash</td></tr>
+    <tr><td><kbd>⌘</kbd><kbd>I</kbd></td><td>Edit the metadata of a photo, video or MP3</td></tr>
+    <tr><td><kbd>⌘</kbd><kbd>S</kbd></td><td>Slideshow of the marked files</td></tr>
+    <tr><td><kbd>⌘</kbd><kbd>?</kbd></td><td>The full list in Help</td></tr>
+  </table>
+</section>
+
+<section id="support">
+  <h2>Support</h2>
+  <div class="contact">
+    <p>Questions, bug reports and feature requests are welcome. Email is the fastest way to reach the developer:</p>
+    <p class="mail"><a href="mailto:multivision75@gmail.com?subject=Krzychu%20Commander%20support">multivision75@gmail.com</a></p>
+    <p style="color:var(--muted);font-size:.92rem">
+      Replies usually arrive within a few days. When reporting a problem, it helps to include
+      your macOS version, your Mac (Apple silicon or Intel), the app version (app menu → About
+      Krzychu Commander) and, for a device or server, what kind it is.
+    </p>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Frequently asked questions</h2>
+  <dl class="faq">
+    <dt>Why do I have to choose a folder for each panel?</dt>
+    <dd>Apps from the Mac App Store run in a sandbox and may only open the folders you give them.
+      Click the folder button in a panel’s header and pick a folder — for instance your home
+      folder — and the panel can go anywhere inside it. The app remembers your choice across
+      launches.</dd>
+
+    <dt>My Android phone isn’t found.</dt>
+    <dd>Connect it with a USB cable and unlock it. With USB debugging on, confirm “Allow USB
+      debugging?” on the phone. Without it, set the USB mode to “File transfer”. If Android Studio
+      or another adb tool is running, quit it (or run <code>adb kill-server</code>) — it keeps the
+      phone to itself.</dd>
+
+    <dt>A photo from my iPhone won’t copy.</dt>
+    <dd>Most likely the original is stored only in iCloud. On the iPhone, open Settings → Apps →
+      Photos and under “Transfer to Mac or PC” choose “Keep Originals”, or open the photo in Photos
+      on the iPhone first so it downloads. The iPhone panel is read-only: it copies to your Mac,
+      but never changes or deletes anything on the device.</dd>
+
+    <dt>The network window finds no computers.</dt>
+    <dd>Allow Krzychu Commander to use the local network when macOS asks (System Settings →
+      Privacy &amp; Security → Local Network). You can always type the server’s name or address by
+      hand.</dd>
+
+    <dt>Is editing metadata safe for my files?</dt>
+    <dd>Only the metadata is rewritten; the picture, sound and video data are left untouched.
+      Before anything is written, the new file is checked; if the check fails, nothing is changed
+      and the app tells you why. The file’s creation and modification dates are kept.</dd>
+
+    <dt>The movie lookup asks for an API key.</dt>
+    <dd>TMDB and OMDb give free personal keys; Settings → Movie Data has a link to each
+      provider’s key page. TVmaze needs no key.</dd>
+
+    <dt>Does Krzychu Commander collect any data about me?</dt>
+    <dd>No. There are no accounts, no ads and no analytics. See the
+      <a href="privacy.html">privacy policy</a> for the details, including which online services
+      the app contacts and when.</dd>
+  </dl>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <p>
+    Krzychu Commander — developed by Krzysztof Leszczyński ·
+    <a href="mailto:multivision75@gmail.com">multivision75@gmail.com</a> ·
+    <a href="privacy.html">Privacy policy</a>
+  </p>
+  <p>© 2026 Krzysztof Leszczyński. Mac, macOS, iPhone, iPad and Quick Look are trademarks of Apple Inc.
+    Android is a trademark of Google LLC.</p>
+</footer>
+
+</body>
+</html>
